@@ -1,0 +1,165 @@
+[04-Jul-2021 08:23:42 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%d, 0' at line 1 for query SELECT Votes FROM wp_totalsoft_poll_inform WHERE  id>%d, 0 made by activate_plugin, do_action('activate_poll-wp/index.php'), WP_Hook->do_action, WP_Hook->apply_filters, T_S_P_Install, require_once('/plugins/poll-wp/Includes/Total-Soft-Poll-Install.php')
+[04-Jul-2021 13:18:39 UTC] Galat basis data WordPress Unknown column 'wp_mlw_results' in 'where clause' untuk kueri select data_type from information_schema.columns where table_name = wp_mlw_results and column_name = 'point_score' yang dibuat oleh require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, QSM_Install->update
+[04-Jul-2021 16:02:00 UTC] whitelisted: Array
+(
+    [0] => /
+    [1] => /batch/v1
+    [2] => /oembed/1.0
+    [3] => /oembed/1.0/embed
+    [4] => /oembed/1.0/proxy
+    [5] => /contact-form-7/v1
+    [6] => /contact-form-7/v1/contact-forms
+    [7] => /contact-form-7/v1/contact-forms/(?P&lt;id&gt;\d+)
+    [8] => /contact-form-7/v1/contact-forms/(?P&lt;id&gt;\d+)/feedback
+    [9] => /contact-form-7/v1/contact-forms/(?P&lt;id&gt;\d+)/refill
+    [10] => /litespeed/v1
+    [11] => /litespeed/v1/tool/check_ip
+    [12] => /litespeed/v1/ip_validate
+    [13] => /litespeed/v1/token
+    [14] => /litespeed/v1/ping
+    [15] => /litespeed/v1/apikey
+    [16] => /litespeed/v1/notify_img
+    [17] => /litespeed/v1/check_img
+    [18] => /wp/v2
+    [19] => /wp/v2/posts
+    [20] => /wp/v2/posts/(?P&lt;id&gt;[\d]+)
+    [21] => /wp/v2/posts/(?P&lt;parent&gt;[\d]+)/revisions
+    [22] => /wp/v2/posts/(?P&lt;parent&gt;[\d]+)/revisions/(?P&lt;id&gt;[\d]+)
+    [23] => /wp/v2/posts/(?P&lt;id&gt;[\d]+)/autosaves
+    [24] => /wp/v2/posts/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+    [25] => /wp/v2/pages
+    [26] => /wp/v2/pages/(?P&lt;id&gt;[\d]+)
+    [27] => /wp/v2/pages/(?P&lt;parent&gt;[\d]+)/revisions
+    [28] => /wp/v2/pages/(?P&lt;parent&gt;[\d]+)/revisions/(?P&lt;id&gt;[\d]+)
+    [29] => /wp/v2/pages/(?P&lt;id&gt;[\d]+)/autosaves
+    [30] => /wp/v2/pages/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+    [31] => /wp/v2/media
+    [32] => /wp/v2/media/(?P&lt;id&gt;[\d]+)
+    [33] => /wp/v2/media/(?P&lt;id&gt;[\d]+)/post-process
+    [34] => /wp/v2/media/(?P&lt;id&gt;[\d]+)/edit
+    [35] => /wp/v2/blocks
+    [36] => /wp/v2/blocks/(?P&lt;id&gt;[\d]+)
+    [37] => /wp/v2/blocks/(?P&lt;id&gt;[\d]+)/autosaves
+    [38] => /wp/v2/blocks/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+    [39] => /wp/v2/um_form
+    [40] => /wp/v2/um_form/(?P&lt;id&gt;[\d]+)
+    [41] => /wp/v2/um_form/(?P&lt;id&gt;[\d]+)/autosaves
+    [42] => /wp/v2/um_form/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+    [43] => /wp/v2/types
+    [44] => /wp/v2/types/(?P&lt;type&gt;[\w-]+)
+    [45] => /wp/v2/statuses
+    [46] => /wp/v2/statuses/(?P&lt;status&gt;[\w-]+)
+    [47] => /wp/v2/taxonomies
+    [48] => /wp/v2/taxonomies/(?P&lt;taxonomy&gt;[\w-]+)
+    [49] => /wp/v2/categories
+    [50] => /wp/v2/categories/(?P&lt;id&gt;[\d]+)
+    [51] => /wp/v2/tags
+    [52] => /wp/v2/tags/(?P&lt;id&gt;[\d]+)
+    [53] => /wp/v2/users
+    [54] => /wp/v2/users/(?P&lt;id&gt;[\d]+)
+    [55] => /wp/v2/users/me
+    [56] => /wp/v2/users/(?P&lt;user_id&gt;(?:[\d]+|me))/application-passwords
+    [57] => /wp/v2/users/(?P&lt;user_id&gt;(?:[\d]+|me))/application-passwords/introspect
+    [58] => /wp/v2/users/(?P&lt;user_id&gt;(?:[\d]+|me))/application-passwords/(?P&lt;uuid&gt;[\w\-]+)
+    [59] => /wp/v2/comments
+    [60] => /wp/v2/comments/(?P&lt;id&gt;[\d]+)
+    [61] => /wp/v2/search
+    [62] => /wp/v2/block-renderer/(?P&lt;name&gt;[a-z0-9-]+/[a-z0-9-]+)
+    [63] => /wp/v2/block-types
+    [64] => /wp/v2/block-types/(?P&lt;namespace&gt;[a-zA-Z0-9_-]+)
+    [65] => /wp/v2/block-types/(?P&lt;namespace&gt;[a-zA-Z0-9_-]+)/(?P&lt;name&gt;[a-zA-Z0-9_-]+)
+    [66] => /wp/v2/settings
+    [67] => /wp/v2/themes
+    [68] => /wp/v2/themes/(?P&lt;stylesheet&gt;[\w-]+)
+    [69] => /wp/v2/plugins
+    [70] => /wp/v2/plugins/(?P&lt;plugin&gt;[^.\/]+(?:\/[^.\/]+)?)
+    [71] => /wp/v2/block-directory/search
+    [72] => /wp-site-health/v1
+    [73] => /wp-site-health/v1/tests/background-updates
+    [74] => /wp-site-health/v1/tests/loopback-requests
+    [75] => /wp-site-health/v1/tests/https-status
+    [76] => /wp-site-health/v1/tests/dotorg-communication
+    [77] => /wp-site-health/v1/tests/authorization-header
+    [78] => /wp-site-health/v1/directory-sizes
+)
+
+[04-Jul-2021 16:02:00 UTC] checking for /
+[04-Jul-2021 16:02:00 UTC] checking for /batch/v1
+[04-Jul-2021 16:02:00 UTC] checking for /oembed/1.0
+[04-Jul-2021 16:02:00 UTC] checking for /oembed/1.0/embed
+[04-Jul-2021 16:02:00 UTC] checking for /oembed/1.0/proxy
+[04-Jul-2021 16:02:00 UTC] checking for /contact-form-7/v1
+[04-Jul-2021 16:02:00 UTC] checking for /contact-form-7/v1/contact-forms
+[04-Jul-2021 16:02:00 UTC] checking for /contact-form-7/v1/contact-forms/(?P&lt;id&gt;\d+)
+[04-Jul-2021 16:02:00 UTC] checking for /contact-form-7/v1/contact-forms/(?P&lt;id&gt;\d+)/feedback
+[04-Jul-2021 16:02:00 UTC] checking for /contact-form-7/v1/contact-forms/(?P&lt;id&gt;\d+)/refill
+[04-Jul-2021 16:02:00 UTC] checking for /litespeed/v1
+[04-Jul-2021 16:02:00 UTC] checking for /litespeed/v1/tool/check_ip
+[04-Jul-2021 16:02:00 UTC] checking for /litespeed/v1/ip_validate
+[04-Jul-2021 16:02:00 UTC] checking for /litespeed/v1/token
+[04-Jul-2021 16:02:00 UTC] checking for /litespeed/v1/ping
+[04-Jul-2021 16:02:00 UTC] checking for /litespeed/v1/apikey
+[04-Jul-2021 16:02:00 UTC] checking for /litespeed/v1/notify_img
+[04-Jul-2021 16:02:00 UTC] checking for /litespeed/v1/check_img
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/posts
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/posts/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/posts/(?P&lt;parent&gt;[\d]+)/revisions
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/posts/(?P&lt;parent&gt;[\d]+)/revisions/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/posts/(?P&lt;id&gt;[\d]+)/autosaves
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/posts/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/pages
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/pages/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/pages/(?P&lt;parent&gt;[\d]+)/revisions
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/pages/(?P&lt;parent&gt;[\d]+)/revisions/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/pages/(?P&lt;id&gt;[\d]+)/autosaves
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/pages/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/media
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/media/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/media/(?P&lt;id&gt;[\d]+)/post-process
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/media/(?P&lt;id&gt;[\d]+)/edit
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/blocks
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/blocks/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/blocks/(?P&lt;id&gt;[\d]+)/autosaves
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/blocks/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/um_form
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/um_form/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/um_form/(?P&lt;id&gt;[\d]+)/autosaves
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/um_form/(?P&lt;parent&gt;[\d]+)/autosaves/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/types
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/types/(?P&lt;type&gt;[\w-]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/statuses
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/statuses/(?P&lt;status&gt;[\w-]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/taxonomies
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/taxonomies/(?P&lt;taxonomy&gt;[\w-]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/categories
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/categories/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/tags
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/tags/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/users
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/users/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/users/me
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/users/(?P&lt;user_id&gt;(?:[\d]+|me))/application-passwords
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/users/(?P&lt;user_id&gt;(?:[\d]+|me))/application-passwords/introspect
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/users/(?P&lt;user_id&gt;(?:[\d]+|me))/application-passwords/(?P&lt;uuid&gt;[\w\-]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/comments
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/comments/(?P&lt;id&gt;[\d]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/search
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/block-renderer/(?P&lt;name&gt;[a-z0-9-]+/[a-z0-9-]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/block-types
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/block-types/(?P&lt;namespace&gt;[a-zA-Z0-9_-]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/block-types/(?P&lt;namespace&gt;[a-zA-Z0-9_-]+)/(?P&lt;name&gt;[a-zA-Z0-9_-]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/settings
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/themes
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/themes/(?P&lt;stylesheet&gt;[\w-]+)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/plugins
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/plugins/(?P&lt;plugin&gt;[^.\/]+(?:\/[^.\/]+)?)
+[04-Jul-2021 16:02:00 UTC] checking for /wp/v2/block-directory/search
+[04-Jul-2021 16:02:00 UTC] checking for /wp-site-health/v1
+[04-Jul-2021 16:02:00 UTC] checking for /wp-site-health/v1/tests/background-updates
+[04-Jul-2021 16:02:00 UTC] checking for /wp-site-health/v1/tests/loopback-requests
+[04-Jul-2021 16:02:00 UTC] checking for /wp-site-health/v1/tests/https-status
+[04-Jul-2021 16:02:00 UTC] checking for /wp-site-health/v1/tests/dotorg-communication
+[04-Jul-2021 16:02:00 UTC] checking for /wp-site-health/v1/tests/authorization-header
+[04-Jul-2021 16:02:00 UTC] checking for /wp-site-health/v1/directory-sizes
+[04-Jul-2021 16:46:54 UTC] EXLOG: No rows returned from test query.

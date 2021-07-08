@@ -1,0 +1,456 @@
+/*
+Admin css
+*/
+
+
+body.post-type-poll {
+    overflow-x: hidden;
+}
+
+#poll-metabox {
+    border: none;
+    box-shadow: 0 0 20px 5px rgb(0 0 0 / 0.17);
+    margin-top: -20px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+#poll-metabox .postbox-header {
+    display: none;
+}
+
+#poll-metabox .inside {
+    padding: 0;
+    margin: 0;
+}
+
+
+.wpp-poll-meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wpp-poll-meta .meta-sidebar {
+    min-width: 280px;
+    width: 30%;
+    border-right: 1px solid #efefef;
+    background: #a1c9fb61;
+}
+
+.wpp-poll-meta .meta-sidebar .header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 25px 25px 0;
+}
+
+.wpp-poll-meta .meta-sidebar .header img {
+    box-shadow: 0 5px 30px 2px rgb(93 127 197 / 50%);
+    border-radius: 50%;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.wpp-poll-meta .meta-sidebar .meta-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0 25px;
+}
+
+.wpp-poll-meta .meta-sidebar .meta-nav > li {
+    display: inline-block;
+    padding: 24px 0 24px 24px;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 34px;
+    transition: 0.1s;
+    width: calc(100% - 24px);
+    text-align: left;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.wpp-poll-meta .meta-sidebar .meta-nav > li:hover,
+.wpp-poll-meta .meta-sidebar .meta-nav > li.active {
+    background: linear-gradient(to right, #5c68ef 0%, #5fb4f6 100%);
+    color: #fff;
+}
+
+.wpp-poll-meta .meta-sidebar .footer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #c5c5c5;
+    margin-top: 10px;
+    background: #32373c;
+}
+
+.wpp-poll-meta .meta-sidebar .footer > a,
+.wpp-poll-meta .meta-sidebar .footer > a:focus,
+.wpp-poll-meta .meta-sidebar .footer > a:visited {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    transition: 0.3s;
+    outline: none;
+    box-shadow: none;
+}
+
+.wpp-poll-meta .meta-sidebar .footer > a:hover {
+    color: #F44336;
+}
+
+.wpp-poll-meta .meta-content {
+    position: relative;
+    width: 75%;
+    padding: 20px;
+}
+
+.wpp-poll-meta .meta-content.loading:before {
+    position: absolute;
+    content: ' ';
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #f1f1f1;
+    height: 100%;
+    z-index: 99;
+    opacity: 0.8;
+}
+
+.wpp-poll-meta .meta-content.loading:after {
+    position: absolute;
+    content: url(../../images/loader.gif);
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.wpp-poll-meta .tab-content-item {
+    display: none;
+    transition: 0.3s;
+}
+
+.wpp-poll-meta .tab-content-item.active {
+    display: block;
+}
+
+.wpp-poll-meta .tab-content-item .item-title {
+    margin: 0 0 20px 0;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.wpp-poll-meta .tab-content-item .item-title:after {
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 1px;
+    background: #d6d6d6;
+    left: 0;
+    bottom: 0;
+}
+
+#poll-metabox #post_title {
+    width: 100%;
+    padding: 8px 12px;
+    line-height: 20px;
+}
+
+
+#poll-metabox .wpp-add-poll-option {
+    position: relative;
+    text-align: center;
+    padding: 5px 12px;
+    font-size: 14px;
+    background: #007cba;
+    border-width: 0;
+    color: #fff;
+    text-indent: 10px;
+}
+
+
+#poll-metabox .wpp-add-poll-option:after {
+    content: '+';
+    position: relative;
+    padding-left: 8px;
+    font-size: 22px;
+    line-height: 13px;
+    top: 2px;
+}
+
+.poll-options .poll-option-single {
+    background: #f1f1f1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.poll-options .poll-option-single .wps-field {
+    display: inline-block;
+    width: 30%;
+}
+
+.poll-options .poll-option-single .wps-field .wps-field-inputs {
+    margin: 10px 0 0 0;
+}
+
+.poll-options .poll-option-single .wps-field span.shortcode {
+    width: 75%;
+}
+
+.poll-option-controls {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.poll-option-controls > span {
+    background: #1199abe8;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.poll-option-controls > span.option-move {
+    cursor: move;
+}
+
+.poll-option-controls > span.option-shortcode {
+    background: #607d8be8;
+}
+
+.poll-option-controls > span.option-shortcode:hover {
+    background: #435863e8;
+}
+
+
+.poll-option-controls > span:hover {
+    background: #176a75e8;
+}
+
+.poll-option-controls > span.option-remove {
+    background: #ff5722;
+}
+
+.poll-option-controls > span.option-remove:hover {
+    background: #da4617;
+}
+
+.poll-option-controls > span.option-external {
+    color: #2f2f2f;
+    text-align: center;
+    padding-top: 5px;
+    background: transparent;
+}
+
+.poll-option-controls > span.option-external > span {
+    font-size: 32px;
+    width: 100%;
+}
+
+
+.post-type-poll .wps-field fieldset label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.post-type-poll .wps-field fieldset label input[type="checkbox"],
+.post-type-poll .wps-field fieldset label input[type="radio"] {
+    margin-top: -2px;
+    margin-right: 8px;
+}
+
+/**
+ * Chart Reporting
+ */
+#wpp-chart-report {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 22px 35px -16px rgba(0, 0, 0, 0.1);
+    max-width: 795px;
+    margin: 10px auto 20px auto;
+}
+
+/**
+ * Widgets
+ */
+.widget-inside .wps-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.widget-inside .wps-field > label {
+    font-size: 13px;
+}
+
+.widget-inside .wps-field .wps-field-inputs {
+    margin: 0;
+    min-width: 0;
+    width: 75%;
+}
+
+.widget-inside .wps-field .wps-field-inputs select,
+.widget-inside .wps-field .wps-field-inputs input {
+    width: 100%;
+    max-width: 100%;
+}
+
+a.wpp-preview-link,
+a.wpp-preview-link:active,
+a.wpp-preview-link:focus,
+a.wpp-preview-link:hover {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #FF5722;
+    outline: none;
+    box-shadow: none;
+}
+
+/**
+ * Notices
+ */
+
+.wpp-notice {
+    background: #00bcd43b;
+    padding: 10px;
+    border-left: 3px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.wpp-notice.wpp-warning {
+    background: #ff98003b;
+}
+
+.wpp-notice.wpp-error {
+    background: #ff57223b;
+}
+
+.wpp-notice.wpp-success {
+    background: #4caf503b;
+}
+
+.wps-field.count-down-selection .image-select > label {
+    width: 160px;
+}
+
+.wps-field.image_select a.wpp-preview-link {
+    margin-left: 0;
+}
+
+
+span.shortcode {
+    background: #f1f1f1;
+    border: 1px solid #a2a2a2;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #868686;
+}
+
+.row-actions .go-pro a {
+    color: #E91E63;
+    font-weight: 600;
+}
+
+
+/**
+ * Extensions
+ */
+
+.pb-extensions {
+    padding: 25px;
+}
+
+.pb-extensions .pb-extension {
+    display: inline-block;
+    width: 33%;
+    max-width: 370px;
+    margin: 0 30px 30px 0;
+    vertical-align: top;
+}
+
+.pb-extensions .pb-extension:nth-child(3n+0) {
+    margin-right: 0;
+}
+
+.pb-extensions .pb-extension > a > img {
+    vertical-align: bottom;
+}
+
+.pb-extensions .pb-extension .info {
+    padding: 25px 20px;
+    box-shadow: 0 5px 20px 5px #ddd;
+    background: #fff;
+}
+
+
+.pb-extensions .pb-extension .info h2 {
+    margin-top: 0;
+}
+
+.pb-extensions .pb-extension .info h2 > a {
+    text-decoration: none;
+    color: #4e4e4e;
+}
+
+.pb-extensions .pb-extension .info p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.pb-extensions .pb-extension .info .pricing {
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.pb-extensions .pb-extension .info .pricing a.price,
+.pb-extensions .pb-extension .info .pricing a.price:focus,
+.pb-extensions .pb-extension .info .pricing a.price:hover,
+.pb-extensions .pb-extension .info .pricing a.price:active {
+    background-color: #e65550;
+    background-image: linear-gradient(-100deg, #424242d9, transparent);
+    padding: 8px 15px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+a.wpp-support,
+a.wpp-support:focus,
+a.wpp-support:active,
+a.wpp-doc,
+a.wpp-doc:focus,
+a.wpp-doc:active {
+    background: #e61f63;
+    color: #fff;
+    padding: 3px 12px 5px;
+    border-radius: 50px;
+    font-size: 12px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+a.wpp-doc {
+    background: #292929;
+}
